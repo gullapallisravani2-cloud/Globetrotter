@@ -1,0 +1,15 @@
+export function LoginSignupScreen({ onNext }) {
+return (
+<div className="min-h-screen flex items-center justify-center bg-slate-100">
+<div className="bg-white p-6 rounded-xl shadow w-96">
+<h1 className="text-2xl font-bold">GlobeTrotter</h1>
+<input className="mt-4 w-full border p-2 rounded" placeholder="Email" />
+<input className="mt-2 w-full border p-2 rounded" type="password" placeholder="Password" />
+<button onClick={onNext} className="mt-4 w-full bg-slate-800 text-white py-2 rounded">
+Login / Signup
+</button>
+<p className="mt-2 text-xs text-slate-500">Forgot password?</p>
+</div>
+</div>
+);
+}
