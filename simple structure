@@ -1,0 +1,21 @@
+globetrotter
+│
+├── README.md
+│
+└── src
+    │
+    ├── App.jsx
+    │
+    ├── screens
+    │   ├── LoginSignup.jsx
+    │   ├── Dashboard.jsx
+    │   ├── CreateTrip.jsx
+    │   ├── MyTrips.jsx
+    │   ├── ItineraryBuilder.jsx
+    │   ├── ItineraryView.jsx
+    │   ├── CitySearch.jsx
+    │   ├── ActivitySearch.jsx
+    │   ├── BudgetBreakdown.jsx
+    │   ├── Timeline.jsx
+    │   ├── PublicItinerary.jsx
+    │   └── ProfileSettings.jsx
